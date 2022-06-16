@@ -1,0 +1,35 @@
+body{
+    background: rgba(0, 0, 0, 0.801);
+}
+header{
+    font: bold 15px sans-serif;
+    color: rgb(19, 18, 18);
+    text-align: center;
+ 
+}
+section{
+    background-color: rgb(236, 163, 27);
+    padding: 12px;
+    border-radius: 10px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 3px 3px rgba(253, 251, 251, 0.493);
+}
+div#marca{
+    font: normal 15px arial;
+    text-align: center;
+}
+div#caixa{
+    font: normal 15px sans-serif;
+}
+div#botao{
+    text-align: center;
+    
+}
+div#bandeira{
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+}

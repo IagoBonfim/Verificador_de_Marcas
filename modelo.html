@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibidor de marcas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Nacionalidade das Logomarcas</h1>
+        </header>
+        <div id="marca">MARCA:</div>
+        <div id="caixa">
+            <p>
+                <input type="radio" name="radmarca" id="ferrari"> 
+                <label for="ferrari">FERRARI</label>
+                <input type="radio" name="radmarca" id="fiat">
+                <label for="fiat">FIAT</label>
+                <input type="radio" name="radmarca" id="ford">
+                <label for="ford">FORD</label>
+                <input type="radio" name="radmarca" id="mercedes">
+                <label for="mercedes">MERCEDES</label>
+                <input type="radio" name="radmarca" id="volks">
+                <label for="volks">VOLKSWAGEN</label>
+            </p>
+            <div id="botao">
+            <input type="button" value="DESCOBRIR" onclick="descobrir()">
+            </div>
+        </div>
+        <div id="bandeira">
+            <p><i>Escolha a marca e clique em verificar, para ver o resultado.</i></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy Iago Bonfim</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
