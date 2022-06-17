@@ -26,7 +26,13 @@ div#botao{
     text-align: center;
     
 }
+div#nome{
+    padding: 5px;
+    font: bold 20px arial;
+    text-align: center;
+}
 div#bandeira{
+    padding: 10px;
     text-align: center;
 }
 footer{
